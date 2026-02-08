@@ -20,7 +20,7 @@ class EquiposController:
             nombre: Nombre del equipo
             curso: Curso del equipo
             color: Color de la camiseta
-            logo: Ruta del logo (opcional)
+            logo: Ruta del logo 
             
         Returns:
             Equipo creado
@@ -249,3 +249,4 @@ class EquiposController:
             stats['puntos'] = (stats['partidos_ganados'] * 3) + (stats['partidos_empatados'] * 1)
         
         return stats
+
